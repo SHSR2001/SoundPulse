@@ -13,7 +13,7 @@ SoundPulse generates pulsating circles dancing to our groovy music library. Ever
 ## How does it work?
 
 * The artwork is produced using a generative p5.js script 
-* The script is stored immutably on the Ethereum Blockchain too using the IPFS Protocol
+* The script is stored immutably on the Ethereum Blockchain by adding the link of the .json file uploaded to IPFS as the `_uid` of the trasnaction that mints the token
 * Parameters of the artwork, specifically - the backing sound track; the colours and shapes of the elements depend on the hash of the transaction that mints the tokens 
 * Once the transaction hash is inputted into the script, a unique art-piece is generated
 
